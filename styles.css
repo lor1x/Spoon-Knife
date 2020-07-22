@@ -3,12 +3,21 @@
   padding:0px;
 }
 
-#octocat {
-  display: block;
-  width:384px;
-  margin: 50px auto;
+@media (prefers-color-scheme: dark){
+  #octocat {
+    display: block;
+    width:384px;
+    margin: 50px auto;
+    color: white;
+    background: #101010;
 }
-
+  
+#octocat {
+    display: block;
+    width:384px;
+    margin: 50px auto;
+}
+  
 p {
   display: block;
   width: 400px;
